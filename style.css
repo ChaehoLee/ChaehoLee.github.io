@@ -147,18 +147,6 @@ img {
 	width:100%;			/* width of page */
 	position:relative;
 }
-.introduce {
-	overflow: hidden;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: auto;
-	height: auto;
-}
-.fullshot {
-	margin-right: 2em;
-}
-
 .col1,
 .col2,
 .col3 {
