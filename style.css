@@ -8,7 +8,7 @@ body {
 	min-width:600px;		/* Minimum width of layout - remove line if not required */
 					/* The min-width property does not work in old versions of Internet Explorer */
 	font:x-small/1.5em Arial; /* Tahoma, Avenir,Verdana,Sans-Serif; */
-	font-size:80%;
+	font-size:100%;
 }
 a {
 	/* color:#C41E3A; */
@@ -53,6 +53,7 @@ a:hover {
 h1, h2, h3 {
 	margin:.8em 0 .2em 0;
 	padding:0;
+	font-weight: bold;
 }
 p {
 	margin:.4em 0 .8em 0;
@@ -150,6 +151,7 @@ img {
 .introduce {
 	width: 100%;
 	height: 100%;
+	max-width: 1290px;
 	object-fit: contain;
 }
 .col1,
@@ -177,6 +179,46 @@ img {
 	width:21%;			/* right column content width (right column width minus left and right padding) */
 	left:31%;			/* (right column width) plus (left column left and right padding) plus (right column left padding) */
 }
+
+#top {
+	display:scroll;
+	position:fixed;
+	right:10px;
+	background: none;
+	bottom:95px;
+}
+
+#bottom {
+	display:scroll;
+	position:fixed;
+	right:10px;
+	background: none;
+	bottom:30px;
+}
+#updown {
+	width: 50px;
+}
+
+#ko {
+	display:scroll;
+	position:fixed;
+	right:120px;
+	background: none;
+	top:30px;
+}
+
+#en {
+	display:scroll;
+	position:fixed;
+	right:10px;
+	background: none;
+	top:30px;
+}
+
+.btn-secondary {
+    color: #000;
+}
+
 /* Footer styles */
 #footer {
 	clear:both;
